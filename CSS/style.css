@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gradient {
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    /* Başvur yazısının altındaki çizgiyi sildik */
+    text-decoration: none; 
+    /* butona gölge verdik - css shadow generator diye google ladık */
+    -webkit-box-shadow: 9px 0px 8px 10px rgba(0,0,0,0.32); 
+    box-shadow: 9px 0px 8px 10px rgba(0,0,0,0.32);
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+.content {
+    width: 800px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* yada kısaca aşağıdaki iki satır */
+    /* margin: 0 auto 0 auto; */
+    /* margin: 0 auto; */
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: rgb(105, 105, 105);
+    border-radius: 10px;
+}
+/* .container {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    /* margin: 10px; bu satır kutuya çevresel olrak veirir */
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /* margin-bottom: 10px; */
+    /* margin-right: 10px; */
+    /* float: left; */
+/* } */
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
