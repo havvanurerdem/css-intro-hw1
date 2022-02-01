@@ -3,9 +3,49 @@ body {
     padding: 0;
 }
 
-.gradient {
-    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+
+/***********************AŞAĞI YUKARI BUTONU********************************************/
+.sqr-btn {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+.button1 {
+    background-color: rgba(255, 255, 255, 0.541); 
+    color: black; 
+    border: 2px solid rgba(247, 109, 17, 0.678);
+  }
+  .button1:hover {
+    background-color: rgba(247, 109, 17, 0.678);
+    color: white;
+  }
+/*---------------------------------------------------------------------------------*/
+/**/
+/**/
+/*****************************ANASAYFA HAKKIMIZDA BUTONU******************************/
+.new-button {
+    padding: 10px 91px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none; /*altyazıyı sildik*/
+    -webkit-box-shadow: 9px 0px 4px 8px rgba(0,0,0,0.32); 
+    box-shadow: 9px 0px 4px 8px rgba(0,0,0,0.32);
+}
+.gradient {
+    background: linear-gradient(90deg,rgb(247, 110, 17),rgba(0, 0, 0, 0.712));
+}
+/*---------------------------------------------------------------------------------*/
+/**/
+/**/
+/*****************************SEPETE EKLE********************************************/
 .btn{
     padding: 10px 20px;
     border-radius: 25px;
@@ -16,9 +56,14 @@ body {
     -webkit-box-shadow: 9px 0px 8px 10px rgba(0,0,0,0.32); 
     box-shadow: 9px 0px 8px 10px rgba(0,0,0,0.32);
 }
+/*-------------------------------------------------------------------------------------*/
+/**/
+/**/
 .home-page {
     text-decoration: underline overline;
-    color:rgb(226, 49, 43) ;
+    color:rgb(247, 110, 17) ;
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 64px;
     /* margin-left: auto;
     margin-right: auto;} */
 }
@@ -45,12 +90,14 @@ body {
     /* margin: 0 auto; */
 }
 .card1 {
-    width: 25%;
+    width: 28%;
     float: left;
     padding: 1%;
     margin-right: 3%;
-    background-color: rgb(214, 166, 166);
+    background-color: none;
     border-radius: 10px;
+    font-family: 'Harry Potter', sans-serif;
+    text-decoration-color:blueviolet ;
 }
 .card2 {
     width: 20%;
